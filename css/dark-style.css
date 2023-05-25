@@ -30,6 +30,17 @@ body.dark .categories{
     background-color: #282828;
 }
 
+/* SERVICES */
+body.dark .services__item{
+    border: 1px solid rgba(255,255,255,0.1);
+}
+body.dark .services__item p{
+    color: #c2d0da;
+}
+body.dark .top__text a{
+    color: #eee;
+}
+
 /* STATISTIC */
 body.dark .statistic__item{
     background-color: #232220;
