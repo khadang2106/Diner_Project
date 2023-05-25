@@ -1,1 +1,1 @@
-# BC51_Nhom6_CapstoneBootstrap-Diner
+# Diner_Project_Solo-version
