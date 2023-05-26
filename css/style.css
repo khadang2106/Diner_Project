@@ -801,6 +801,85 @@ html, body{
     }
 }
 
+/* FEEDBACK */
+.feedback__item{
+    max-width: 700px;
+    margin: auto;
+}
+.feedback__item .feedback__pic{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.feedback__item i{
+    display: block;
+    font-size: 22px;
+    color: #ff6600;
+}
+.feedback__item p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(22,28,45,0.7);
+}
+.feedback__item .quote{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #232121;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.feedback__item .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #232121;
+    line-height: 1.2;
+}
+.feedback__item p:last-of-type{
+    opacity: 0.8;
+    margin-top: 4px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #ff6600;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 0;
+}
+.owl-theme .owl-dots .owl-dot span{
+    margin: 5px 2px;
+}
+.owl-carousel button.owl-dot{
+    padding: 1px 6px !important;
+}
+
+/* FEEDBACK-RESPONSIVE */
+@media screen and (max-width: 675px){
+    .feedback__item .quote{
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 600px){
+    .feedback__item p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .feedback__item p:last-of-type{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 475px){
+    .feedback__item .quote{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
 /* BACK TO TOP */
 .backToTop{
     position: fixed;
@@ -822,8 +901,6 @@ html, body{
     background-color: #ff6600;
     color: white;
 }
-
-
 
 
 /* ANIMATION */

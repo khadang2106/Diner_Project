@@ -512,6 +512,58 @@
     </div>
   </section>
   <!-- FEEDBACK -->
+  <section class="feedback py-5">
+    <div class="container py-md-3 py-lg-5">
+      <div class="title text-center">
+        <h6>Testimonials</h6>
+        <h3 class="mb-5">What People Say</h3>
+      </div>
+      <div class="feedback__content text-center">
+        <div class="owl-carousel owl-theme">
+          <div class="feedback__item py-2 mb-4">
+            <div class="feedback__pic">
+              <img src="./img/team1.jpg" alt="team1" class="img-fluid">
+            </div>
+            <i class="fa fa-quote-left"></i>
+            <p class="quote">&ldquo;OMG! I cannot believe. It's Awesome&rdquo;</p>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to help the customers to get their success. Nemo sit eos, quod minus eius illo labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <p class="name mt-4">Johnson William</p>
+            <p>Customer</p>
+          </div>
+          <div class="feedback__item py-2 mb-4">
+            <div class="feedback__pic">
+              <img src="./img/team2.jpg" alt="team2" class="img-fluid">
+            </div>
+            <i class="fa fa-quote-left"></i>
+            <p class="quote">&ldquo;Simply the best. Better than all the rest.&rdquo;</p>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to help the customers to get their success. Nemo sit eos, quod minus eius illo labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <p class="name mt-4">Alexander Sakura</p>
+            <p>Customer</p>
+          </div>
+          <div class="feedback__item py-2 mb-4">
+            <div class="feedback__pic">
+              <img src="./img/team3.jpg" alt="team3" class="img-fluid">
+            </div>
+            <i class="fa fa-quote-left"></i>
+            <p class="quote">&ldquo;OMG! I cannot believe. It's Awesome&rdquo;</p>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to help the customers to get their success. Nemo sit eos, quod minus eius illo labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <p class="name mt-4">John Wilson</p>
+            <p>Customer</p>
+          </div>
+          <div class="feedback__item py-2 mb-4">
+            <div class="feedback__pic">
+              <img src="./img/team2.jpg" alt="team2" class="img-fluid">
+            </div>
+            <i class="fa fa-quote-left"></i>
+            <p class="quote">&ldquo;OMG! I cannot believe. It's Awesome&rdquo;</p>
+            <p>My new site is so much faster and easier to work with than my old site. They are here to help the customers to get their success. Nemo sit eos, quod minus eius illo labore. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <p class="name mt-4">Julia Sakura</p>
+            <p>Customer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- FOOTER -->
   <!-- BACK TO TOP -->
   <a href="#" class="backToTop cd-top text-replace js-cd-top">
@@ -555,6 +607,23 @@
 
   <!-- OWL CAROUSEL JS -->
   <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:50,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        768:{
+            items:1,
+            nav:false
+        },
+    }
+    })
+  </script>
 
   <!-- OVERLAY-NAVBAR JS -->
   <script>

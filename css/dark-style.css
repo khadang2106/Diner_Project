@@ -68,3 +68,14 @@ body.dark .posts__item .card-body .card-text .diner-btn{
 body.dark .posts__item .card-body .card-text .diner-btn:hover{
     color: #ff6600;
 }
+
+/* FEEDBACK */
+body.dark .feedback__item .quote{
+    color: #eee;
+}
+body.dark .feedback__item p{
+    color: #c2d0da;
+}
+body.dark .feedback__item .name{
+    color: #eee;
+}
