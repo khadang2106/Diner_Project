@@ -880,6 +880,131 @@ html, body{
     }
 }
 
+/* FOOTER */
+.footer{
+    background-color: #000;
+}
+.footer a{
+    text-decoration: none;
+    transition: all .5s;
+}
+.footer a:hover{
+    color: #ff6600;
+}
+.footer__item .footer__logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    line-height: 26px;
+}
+.footer__item h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer__item p, .footer__item a{
+    font-size: 17px;
+    color: #a5a2a1;
+    line-height: 26px;
+}
+.footer__item li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer__item .footer__socials a{
+    width: 36px;
+    height: 36px;
+    line-height: 35px;
+    border-radius: 6px;
+    background-color: white;
+    display: inline-block;
+    color: #ff6600;
+    text-align: center;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.footer__content .footer__item .footer__socials a:hover{
+    background-color: #ff6600;
+    color: white;
+}
+.footer__item .footer__socials i{
+    font-size: 15px;
+}
+.footer__item input{
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    color: rgba(22,28,45,0.7);
+    line-height: 28px;
+    outline: none;
+}
+.footer__item input:focus{
+    border: 1px solid #ff6600;
+    color: #111;
+}
+.footer__item button{
+    background-color: #ff6600;
+    border: 2px solid transparent;
+}
+.footer__item button:hover{
+    color: white;
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    opacity: 0.8;
+}
+.footer__copyright{
+    padding: 1.2rem 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+.footer__copyright p{
+    font-size: 17px;
+    color: #ddd;
+    margin: 0;
+}
+.footer__copyright a{
+    color: #ff6600;
+}
+.footer__copyright a:hover{
+    color: white;
+}
+
+/* FOOTER-RESPONSIVE */
+@media screen and (max-width: 992px){
+    .footer__item .footer__socials{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer__item h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer__copyright p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer__copyright p{
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer__item button{
+        padding: 13px 21.5px;
+    }
+}
+@media screen and (max-width: 415px){
+    .footer__item .footer__logo{
+        font-size: 26px;
+    }
+    .footer__item li{
+        margin-bottom: 8px;
+    }
+}
+
 /* BACK TO TOP */
 .backToTop{
     position: fixed;

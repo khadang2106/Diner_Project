@@ -79,3 +79,12 @@ body.dark .feedback__item p{
 body.dark .feedback__item .name{
     color: #eee;
 }
+
+/* FOOTER */
+body.dark .footer__item .footer__socials a{
+    background-color: #232220;
+}
+body.dark .footer__item input{
+    background-color: #232220;
+    color: #c2d0da;
+}
