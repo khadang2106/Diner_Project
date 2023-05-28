@@ -50,6 +50,9 @@ body.dark .services__item p{
 body.dark .top__text a{
     color: #eee;
 }
+body.dark .top__icon i{
+    background-color: #282828;
+}
 
 /* STATISTIC */
 body.dark .statistic__item{
